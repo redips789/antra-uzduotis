@@ -1,0 +1,15 @@
+Name:          antraUzduotis
+Version:       0.1
+Synopsis:      Antra funkcinio uzduotis
+Description:
+  Paprasta programa leidþianti apsiginti zaidime tic tac toe.
+Author:        Povilas Jegelevicius
+Maintainer:    povilas.jegelevicius@gmail.com
+Cabal-Version: >= 1.2
+executable simple
+  build-depends:  base >= 2
+				 ,http-client
+				 ,tuple
+				 ,byteString
+  main-is:        Main.hs
+  hs-source-dirs: prog1
