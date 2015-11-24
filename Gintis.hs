@@ -3,8 +3,6 @@ where
 import Data.Char
 import Data.List
 import Network.HTTP.Client
--- import qualified System.IO.Streams as Streams
--- import qualified Data.ByteString as S
  
 
 message :: String
